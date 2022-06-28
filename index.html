@@ -1,60 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simply</title>
     <style>
-        body{
-            margin: 0;
-            padding: 0;
-        }
-        header{
-            background: #445162;
-            padding: 20px;
-            color: white;
-            height: 320px;
-        }
-        a{
-            text-decoration: none;
-            color: white;
-            vertical-align: middle;  
-        }
-        ul{
-            list-style: none;
-            font-size: 18px;
-        }
-        img{
-            margin-right: 10px;
-            vertical-align: middle;
-        }
-        div{
-            width: 470px;
-            height: 216px;
-            background: white;
-            float: right;
-            margin: 51px 15px 0 0;
-        }
-        h1{
-            font-size: 40px;
-            margin-left: 40px;
-        }
-        li{
-            line-height: 40px;
-        }
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background: #445162;
+        padding: 20px;
+        color: white;
+        height: 320px;
+        display: flex;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+        vertical-align: middle;
+      }
+      ul {
+        list-style: none;
+        font-size: 18px;
+      }
+      img {
+        margin-right: 10px;
+        vertical-align: middle;
+      }
+      .empty-block {
+        width: 470px;
+        height: 216px;
+        background: white;
+        /* float: right; */
+        /* margin: 51px 15px 0 0; */
+      }
+      h1 {
+        font-size: 40px;
+        margin-left: 40px;
+      }
+      li {
+        line-height: 40px;
+      }
     </style>
-</head>
-<body>
-    <header><!--Вёрстка первого блока-->
-        <div class="empty-block"></div>
+  </head>
+  <body>
+    <header>
+      <!--Вёрстка первого блока-->
+      <div>
         <h1>Product name</h1>
         <ul>
-            <li><img src="/image/simpl/image/check-icon.png" alt=""><a href="">Put on this page information about your product</a></li>
-            <li><img src="/image/simpl/image/check-icon.png" alt=""><a href="">A detailed description of your product</a></li>
-            <li><img src="/image/simpl/image/check-icon.png" alt=""><a href="">Tell us about the advantages and merits</a></li>
-            <li><img src="/image/simpl/image/check-icon.png" alt=""><a href="">Associate the page with the payment system</a></li>
+          <li>
+            <img src="/image/simpl/image/check-icon.png" alt="" /><a href=""
+              >Put on this page information about your product</a
+            >
+          </li>
+          <li>
+            <img src="/image/simpl/image/check-icon.png" alt="" /><a href=""
+              >A detailed description of your product</a
+            >
+          </li>
+          <li>
+            <img src="/image/simpl/image/check-icon.png" alt="" /><a href=""
+              >Tell us about the advantages and merits</a
+            >
+          </li>
+          <li>
+            <img src="/image/simpl/image/check-icon.png" alt="" /><a href=""
+              >Associate the page with the payment system</a
+            >
+          </li>
         </ul>
+      </div>
+      <div class="empty-block"></div>
     </header>
-</body>
+  </body>
 </html>
