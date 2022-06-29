@@ -1,83 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Simply</title>
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-      }
-      header {
-        background: #445162;
-        padding: 1.25em;
-        color: white;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-      }
-      a {
-        text-decoration: none;
-        color: white;
-        vertical-align: middle;
-      }
-      ul {
-        list-style: none;
-        font-size: 1.125em;
-        padding: 1em;
-      }
-      h1 {
-        font-size: 2.5em;
-        margin-left: 0.4em;
-      }
-      img {
-        margin-right: 0.625em;
-        vertical-align: middle;
-      }
-      .empty-block {
-        width: 40vw;
-        height: 40vh;
-        background: white;
-        margin-right: 20px;
-        /* float: right; */
-        /* margin: 51px 15px 0 0; */
-      }
-      li {
-        line-height: 2.5em;
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <!--Вёрстка первого блока-->
-      <div>
-        <h1>Product name</h1>
-        <ul>
-          <li>
-            <img src="/image/check-icon.png" alt="" /><a href=""
-              >Put on this page information about your product</a
-            >
-          </li>
-          <li>
-            <img src="/image/check-icon.png" alt="" /><a href=""
-              >A detailed description of your product</a
-            >
-          </li>
-          <li>
-            <img src="/image/check-icon.png" alt="" /><a href=""
-              >Tell us about the advantages and merits</a
-            >
-          </li>
-          <li>
-            <img src="/image/check-icon.png" alt="" /><a href=""
-              >Associate the page with the payment system</a
-            >
-          </li>
-        </ul>
-      </div>
-      <div class="empty-block"></div>
-    </header>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Simply</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: Arial;
+            }
+            header {
+                background: #445162;
+                padding: 1.25em;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            a {
+                text-decoration: none;
+                color: white;
+                vertical-align: middle;
+            }
+            ul {
+                list-style: none;
+                font-size: 20px;
+                padding: 1em;
+                line-height: 36px;
+            }
+            h1 {
+                font-size: 60px;
+                margin-left: 0.4em;
+            }
+            img {
+                margin-right: 0.625em;
+                vertical-align: middle;
+            }
+            .empty-block {
+                width: 35vw;
+                height: 30vh;
+                background: white;
+                margin-right: 20px;
+            }
+            @media screen and (max-width: 900px) {
+                header {
+                    flex-direction: column;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <!--Вёрстка первого блока-->
+            <div>
+                <h1>Product name</h1>
+                <ul>
+                    <li>
+                        <img src="/image/check-icon.png" alt="" /><a href=""
+                            >Put on this page information about your product</a
+                        >
+                    </li>
+                    <li>
+                        <img src="/image/check-icon.png" alt="" /><a href=""
+                            >A detailed description of your product</a
+                        >
+                    </li>
+                    <li>
+                        <img src="/image/check-icon.png" alt="" /><a href=""
+                            >Tell us about the advantages and merits</a
+                        >
+                    </li>
+                    <li>
+                        <img src="/image/check-icon.png" alt="" /><a href=""
+                            >Associate the page with the payment system</a
+                        >
+                    </li>
+                </ul>
+            </div>
+            <div class="empty-block"></div>
+        </header>
+    </body>
 </html>
