@@ -2,7 +2,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial;
-} /*Стили первого блока*/
+}
+/*Стили первого блока*/
 header {
     background: #445162;
     padding: 1.25em;
@@ -15,6 +16,9 @@ a {
     color: white;
     vertical-align: middle;
 }
+a:hover {
+    color: rgb(160, 119, 119);
+}
 ul {
     list-style: none;
     font-size: 20px;
@@ -25,7 +29,7 @@ h1 {
     font-size: 60px;
     margin-left: 0.4em;
 }
-img {
+header img {
     margin-right: 0.625em;
     vertical-align: middle;
 }
@@ -37,34 +41,64 @@ img {
     align-self: center;
 }
 @media screen and (max-width: 900px) {
-    header, .about-product {
+    header,
+    .about-product {
         flex-direction: column;
     }
-} /*Стили второго блока*/
-.about-product{
+}
+/*Стили второго блока*/
+.about-product {
     display: flex;
     justify-content: space-between;
     line-height: 36px;
     column-gap: 20px;
 }
-.dark-block{
+.dark-block {
     width: 50vw;
     height: 35vh;
     background: #445162;
     margin: 40px;
     align-self: center;
 }
-h2{
+h2 {
     font-size: 30px;
     line-height: 36px;
     color: #445161;
     padding-left: 45px;
 }
-p{
-    font-size: 16px;
-    line-height: 24px;
-    color: #333333;
+.about-product p {
     text-align: justify;
     padding: 0 45px;
-
+}
+p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333; 
+}
+/* Стили третьего блока */
+.pluses {
+    background: #f5f5f5;
+}
+.pluses h2 {
+    text-align: center;
+    padding: 30px;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+    margin: 0 45px;
+}
+.block {
+    display: flex;
+    align-items: flex-start;
+    flex: 1 1 600px;
+}
+.block img {
+    background: #445161;
+    padding: 5px;
+    margin-right: 10px;
+}
+.block p {
+    margin-top: -5px;
 }
