@@ -135,7 +135,7 @@ p {
 @media screen and (max-width: 900px) {
     header,
     .about-product,
-    .scrinshots {
+    .media-container {
         flex-direction: column;
     }
 }
