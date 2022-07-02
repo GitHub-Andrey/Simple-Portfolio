@@ -152,7 +152,7 @@ p {
         margin: 0 10px;
     }
     .block-product p {
-        margin: 10px auto;
+        margin: 20px auto;
     }
     h2 {
         font-size: 30px;
@@ -172,5 +172,8 @@ p {
     }
     header {
         padding-bottom: 50px;
+    }
+    .about-product p {
+        width: 90vw;
     }
 }
