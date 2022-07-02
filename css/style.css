@@ -8,10 +8,11 @@ body {
 
 header {
     background: #445162;
-    padding: 1.25em;
+    padding-bottom: 0px;
     color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 0 300px;
 }
 a {
     text-decoration: none;
@@ -47,13 +48,14 @@ header img {
 
 .about-product {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     line-height: 36px;
-    column-gap: 20px;
+    gap: 0 175px;
+    padding-top: 20px;
 }
 .dark-block {
-    width: 50vw;
-    height: 35vh;
+    width: 25vw;
+    height: 30vh;
     background: #445162;
     margin: 40px;
     align-self: center;
@@ -62,10 +64,9 @@ h2 {
     font-size: 30px;
     line-height: 36px;
     color: #445161;
-    padding-left: 45px;
 }
 .about-product p {
-    padding: 0 45px;
+    width: 50vw;
 }
 p {
     font-size: 16px;
@@ -87,12 +88,12 @@ p {
     display: flex;
     flex-wrap: wrap;
     gap: 10px 20px;
-    margin: 0 45px;
+    justify-content: center;
 }
 .block {
     display: flex;
     align-items: flex-start;
-    flex: 1 1 600px;
+    flex: 0 0 45vw;
 }
 .block img {
     background: #445161;
@@ -107,29 +108,30 @@ p {
 
 .scrinshots h2 {
     text-align: center;
-    padding-top: 10px;
+    padding: 20px;
 }
 .scrinshots-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px 20px;
-    margin-right: 20px;
+    gap: 10px 40px;
+    justify-content: center;
 }
 .media-container {
     display: flex;
-    flex: 1 1 500px;
-    align-items: center;
+    flex: 0 0 300px;
+    align-items: flex-start;
 }
 .media-dark-block {
     width: 35vw;
     height: 20vh;
     background: #445162;
-    margin: 40px;
+    margin-right: 10px;
 }
 .media-block h3 {
     color: #445161;
     font-size: 24px;
     line-height: 30px;
+    margin-top: -5px;
 }
 
 @media screen and (max-width: 900px) {
@@ -137,5 +139,38 @@ p {
     .about-product,
     .media-container {
         flex-direction: column;
+    }
+}
+@media screen and (max-width: 500px) {
+    .about-product,
+    .media-container,
+    .content {
+        flex-direction: column;
+        margin: 0 10px;
+    }
+    .content {
+        margin: 0 10px;
+    }
+    .block-product p {
+        margin: 10px auto;
+    }
+    h2 {
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+    }
+    .media-block h3 {
+        padding-top: 20px;
+    }
+    .media-dark-block {
+        align-self: center;
+        margin-bottom: 20px;
+    }
+    .dark-block, .empty-block, .media-dark-block {
+        width: 50vw;
+        height: 25vh;
+    }
+    header {
+        padding-bottom: 50px;
     }
 }
