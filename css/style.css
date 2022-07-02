@@ -136,25 +136,6 @@ p {
 
 /* Стили пятого блока */
 
-.reviews {
-    background: #f5f5f5;
-}
-.reviews h2 {
-    text-align: center;
-    padding-top: 30px;
-}
-.round-block {
-    width: 25px;
-    height: 15px;
-    border-radius: 50%;
-    background: #445161;
-}
-.block-reviews {
-     width: 20vw;
-}
-.reviews-container {
-    display: flex;
-}
 
 
 
