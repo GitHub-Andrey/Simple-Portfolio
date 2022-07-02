@@ -134,6 +134,45 @@ p {
     margin-top: -5px;
 }
 
+/* Стили пятого блока */
+
+.reviews {
+    background: #f5f5f5;
+}
+.reviews h2 {
+    text-align: center;
+    padding-top: 30px;
+}
+.round-block {
+    width: 25px;
+    height: 15px;
+    border-radius: 50%;
+    background: #445161;
+}
+.block-reviews {
+     width: 20vw;
+}
+.reviews-container {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 900px) {
     header,
     .about-product,
@@ -141,6 +180,9 @@ p {
         flex-direction: column;
     }
 }
+
+/* Адаптивные стили под телефоны */
+
 @media screen and (max-width: 500px) {
     .about-product,
     .media-container,
