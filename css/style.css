@@ -155,8 +155,8 @@ p {
 .text-reviews {
     display: flex;
     flex-direction: column;
-    width: 580px;
-    padding: 5px;
+    width: 550px;
+    padding: 0 20px;
     background: #ebebeb;
 }
 .round {
