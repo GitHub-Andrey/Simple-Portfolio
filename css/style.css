@@ -226,28 +226,24 @@ p {
     .about-product p {
         width: 90vw;
     }
-    .reviews-container {
-        display: flex;
+    .reviews-container,
+    .reviews-content {
         flex-direction: column;
     }
-   .reviews-content {
-    display: flex;
-    flex-direction: column;
-   }
-   .text-reviews {
-    width: 240px;
-    text-align: center;
-    margin: 30px 10px ;
-    align-self: center;
-   }
-   .round {
-    align-self: center;
-    width: 80px;
-    height: 80px;
-    margin-top: -20px;
-    padding: 5px;
-   }
-   .reviews h2 {
-    padding: 30px;
-   }
+    .text-reviews {
+        width: 240px;
+        text-align: center;
+        margin: 30px 10px;
+        align-self: center;
+    }
+    .round {
+        align-self: center;
+        width: 80px;
+        height: 80px;
+        margin-top: -20px;
+        padding: 5px;
+    }
+    .reviews h2 {
+        padding: 30px;
+    }
 }
