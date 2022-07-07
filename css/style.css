@@ -184,7 +184,7 @@ p {
 
 /* Стили шестого блока. */
 
-.buy-it-now {
+.buy-it-now{
     display: flex;
     justify-content: center;
     column-gap: 40px;
@@ -261,7 +261,7 @@ p {
 @media screen and (max-width: 900px) {
     header,
     .about-product,
-    .media-container {
+    .media-container, .buy-it-now {
         flex-direction: column;
     }
 }
@@ -271,7 +271,7 @@ p {
 @media screen and (max-width: 500px) {
     .about-product,
     .media-container,
-    .content {
+    .content, .buy-it-now {
         flex-direction: column;
         margin: 0 20px;
     }
@@ -322,4 +322,10 @@ p {
     .reviews h2 {
         padding: 30px;
     }
+    .buy-it-now {
+        display: block;
+  }
+  .list {
+    margin-bottom: 50px;
+  }
 }
