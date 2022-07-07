@@ -182,6 +182,77 @@ p {
     margin-top: -5px;
 }
 
+/* Стили шестого блока. */
+
+.buy-it-now {
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+    height: 565px;
+    align-items: flex-end;
+}
+.buy h2 {
+    text-align: center;
+    padding: 20px;
+}
+.standart {
+    height: 375px;
+}
+.premium {
+    height: 470px;
+}
+.lux {
+    height: 565px;
+}
+.list {
+    background: #445162;
+    border: 2px solid #445162;
+}
+.list h4 {
+    color: white;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+}
+.list p {
+    color: #445162;
+    background: white;
+    padding: 15px;
+    font-size: 40px;
+    line-height: 30px;
+    text-align: center;
+}
+.list li {
+    color: white;
+    font-size: 14px;
+    line-height: 24px;
+}
+.list button {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    color: #445162;
+    background: white;
+    padding: 10px 100px;
+    margin: 0 30px 20px 30px;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Адаптивные стили под планшеты */
+
+
 @media screen and (max-width: 900px) {
     header,
     .about-product,
