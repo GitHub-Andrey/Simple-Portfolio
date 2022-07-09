@@ -187,7 +187,8 @@ p {
 .buy-it-now {
     display: flex;
     justify-content: center;
-    column-gap: 40px;
+    -moz-column-gap: 40px;
+         column-gap: 40px;
     height: 565px;
     align-items: flex-end;
 }
@@ -257,7 +258,8 @@ footer h2 {
 .container-contacts {
     display: flex;
     justify-content: center;
-    column-gap: 50px;
+    -moz-column-gap: 50px;
+         column-gap: 50px;
 }
 .container-social img {
     margin-right: 5px;
