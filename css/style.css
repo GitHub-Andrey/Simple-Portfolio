@@ -405,4 +405,7 @@ button {
     .container-social {
         align-self: center;
     }
+    textarea {
+    -webkit-width: 30vw;
+    }
 }
