@@ -280,8 +280,8 @@ form {
     flex-direction: column;
     /* width: 30vw; */
 }
-.container-form p {
-    display: flex;
+form p {
+    flex: 1;
 }
 form input {
     font-family: Arial, Helvetica, sans-serif;
@@ -291,8 +291,8 @@ form input {
     margin-bottom: -15px;
     border-radius: 5px;
     border: 0;
-    flex: 1;
-    width: 30vw;
+    /* flex: 1; */
+    /* width: 30vw; */
 }
 textarea {
     font-family: Arial, Helvetica, sans-serif;
@@ -300,8 +300,9 @@ textarea {
     line-height: 24px;
     /* -webkit-width: 30vw; */
     flex: 1;
-    width: 30vw;
+    /* width: 30vw; */
 }
+
 .container-form button {
     padding: 5px 40px;
     color: #445162;
