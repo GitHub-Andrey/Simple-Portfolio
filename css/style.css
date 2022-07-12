@@ -297,7 +297,7 @@ textarea {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 24px;
-    /* width: 30vw; */
+    -webkit-width: 30vw;
     flex: 1;
 }
 .container-form button {
@@ -404,5 +404,8 @@ button {
     }
     .container-social {
         align-self: center;
+    }
+    textarea {
+    -webkit-width: 30vw;
     }
 }
