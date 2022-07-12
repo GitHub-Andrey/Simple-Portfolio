@@ -410,5 +410,6 @@ button {
     }
     textarea {
     width: 55vw;
+    height: 30vh;
     } 
 }
