@@ -403,8 +403,11 @@ button {
         flex-direction: column;
     }
     .container-form {
-        margin-left: 70px;
+        margin: auto;
     }
+    /* form p button {
+        align-self: flex-end;
+    } */
     .container-social {
         align-self: center;
     }
