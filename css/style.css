@@ -258,7 +258,7 @@ footer h2 {
     display: flex;
     justify-content: center;
     -moz-column-gap: 50px;
-         column-gap: 50px;
+    column-gap: 50px;
 }
 .container-social img {
     margin-right: 5px;
@@ -416,7 +416,7 @@ p button {
         width: 53vw;
     }
     textarea {
-    width: 55vw;
-    height: 30vh;
-    } 
+        width: 55vw;
+        height: 30vh;
+    }
 }
